@@ -12,7 +12,7 @@ void main ()
     }
   else if ((ch>=97 && ch <=122))
     {
-      printf ("Constant");
+      printf ("Consonant");
     }
   else
     {
