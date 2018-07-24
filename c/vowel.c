@@ -1,14 +1,21 @@
 #include<stdio.h>
-void main()
+#include<ctype.h>
+void main ()
 {
-  char c,ch;
-  printf("Enter input: ");
-  scanf("%d",c);
-  ch=tolower();
-  if(ch={'a','e','i','o','u'});
-    printf("VOWEL");
-  else if(isalpha(ch))
-    printf("Constant");
-  else 
-    printf("Invalid");
+  char c, ch;
+  printf ("Enter input: ");
+  scanf ("%c", &c);
+  ch = tolower (c);
+  if (ch == 'a' ||ch == 'e' ||ch == 'i' ||ch == 'o' ||ch == 'u')
+    {
+      printf ("VOWEL");
+    }
+  else if ((ch>=97 && ch <=122))
+    {
+      printf ("Constant");
+    }
+  else
+    {
+      printf ("Invalid");
+    }
 }
