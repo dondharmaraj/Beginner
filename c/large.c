@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int a,b,c;
     printf("Enter three numbers:");
@@ -10,4 +10,5 @@ void main()
         printf("%d",b);
     else
         printf("%d",c);
+    return 0;
 }
