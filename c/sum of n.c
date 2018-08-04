@@ -2,8 +2,6 @@
 int main()
 {
     int n, i, s = 0;
-    
-    printf("Enter a integer: ");
     scanf("%d",&n);
 
     for(i=1; i <= n; ++i)
@@ -11,7 +9,7 @@ int main()
         s += i;
     }
 
-    printf("S = %d",s);
+    printf("%d",s);
 
     return 0;
 }
