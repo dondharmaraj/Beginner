@@ -15,9 +15,9 @@ int main()
     }
 
     if (oi == ri)
-        printf("Yes");
+        printf("yes");
     else
-        printf("No");
+        printf("no");
     
     return 0;
 }
