@@ -10,7 +10,7 @@ void main()
         {
             rem=i%2;
             if(rem!=0)
-                printf("%d",i);
+                printf("%d ",i);
         }
     }
 }
